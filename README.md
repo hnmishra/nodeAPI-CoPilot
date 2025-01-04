@@ -1,5 +1,7 @@
-Event Management API Developed in Node.js using the GitHub-CoPilot
+**Event Management API Developed in Node.js using the GitHub-CoPilot**
+
 This is an Event Management API built with Node.js, Express, and SQLite. The API allows users to create, edit, delete, and retrieve events. Users can also register and unregister for events. Authentication is handled using JSON Web Tokens (JWT).
+
 Project Structure
 .env
 .gitignore
