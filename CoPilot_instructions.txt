@@ -1,0 +1,23 @@
+Add some event-specific routes, which can be used to create events, edit an event (identified by event id) or delete an event.
+use ESM import/exports.
+
+
+@workspace Edit the #  file to contain and export functions that will create a new event with (title, description, address and date), edit an event, delete an event or get all or single event (by id)
+
+Update the routes to use the appropriate controller function from the event controller
+
+
+use the @generateToke function to generate JWTs which are send back with the response after successful signup or login
+
+1st instruction for user login
+
+This REST API needs user authentication.
+Users must be able to register (signup) and login.
+Don't add any JWT code or anything like that, just generate User model (without using classes) in the models folder
+Also generate sign up and login routes (e.g. /users/signup) in the rouges folder.
+Last but not least add the code for linking route and model to a user controller (Controller folder).
+Don't add any code to for storing user data in the database yet.
+Write standalone functions with export and import in all files.
+Add code in the respective files
+
+
